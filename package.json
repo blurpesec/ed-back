@@ -7,7 +7,7 @@
     "test": "ts-node ./src/app.ts",
     "start": "ts-node ./src/app.ts",
     "start:dev": "cross-env NODE_ENV=development DEBUG=* nodemon --trace-sync-io --trace-warnings",
-    "clean": "rimraf ./cache.db"
+    "clean": "rimraf ./cache.db ./node_modules"
   },
   "author": "blurpesec",
   "license": "MIT",
